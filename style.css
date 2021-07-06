@@ -3,10 +3,10 @@ body{
 font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
-section {
+.flexible-container{
     display: flex;
-    
 }
+
  h1{ font-size: 55px;}
 span{
     color: rgba(255, 166, 0, 0.61);
@@ -28,13 +28,26 @@ span{
     border-radius: 3px;
     padding: 2px 5px;
 }
- 
-    
-
-
 
 .middle{
     
-    background-image: url(images/shapes/7.png);
-
+    background-image: url(images/shapes/7.png);}
+#recipi{
+    text-align: center;
 }
+ .food{
+     display:flex;
+     flex-direction: row;
+     width: 100%;
+     flex-wrap:row wrap;
+ }
+ .column{
+     padding: 5px;
+     width: 30%;
+     margin: 15px;
+     border-radius: 20px;
+     box-shadow:15px 10px   15px gray;
+ }
+ .column img{
+     width: 100%;
+ }
