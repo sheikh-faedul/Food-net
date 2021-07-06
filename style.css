@@ -49,5 +49,19 @@ span{
      box-shadow:15px 10px   15px gray;
  }
  .column img{
-     width: 100%;
+     width: 100%;}
+ #media{
+     display: flex;
+     width: 30%;
+     margin-left: 20px;
  }
+ .like{
+     width: 50%;
+     margin-left: 200px;
+ }
+ footer{
+     background-color: rgba(39, 36, 36, 0.89);
+     text-align: center;
+     font-weight: 900px;
+ }
+ 
